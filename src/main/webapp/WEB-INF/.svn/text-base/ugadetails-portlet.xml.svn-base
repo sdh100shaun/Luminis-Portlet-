@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+  
+    <bean id="parameterMappingInterceptor" class= "org.springframework.web.portlet.handler.ParameterMappingInterceptor" />
+    <bean id="portletModeParameterHandlerMapping"
+    class= "org.springframework.web.portlet.handler.PortletModeParameterHandlerMapping">
+        <property name="defaultHandler" ref="indexController"/>
+        <property name="order" value="10" />
+        <property name="interceptors">
+        <list>
+            <ref bean="parameterMappingInterceptor"/>
+		</list>
+        </property>
+        <property name="portletModeParameterMap">
+            <map>
+                <entry key="view">
+                    <map>
+
+                        <entry key="viewModules">
+                            <ref bean="indexController" />
+                        </entry>
+                    </map>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+
+
+    <bean id="indexController" class="uk.ac.nottingham.portal.portlets.ugadetails.controllers.IndexController">
+
+        </bean>
+
+
+   <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+       <property name="ignoreUnresolvablePlaceholders" value="true"/>
+       <property name="locations">
+         <list>
+           <value>/WEB-INF/ugadetails.properties</value>
+         </list>
+       </property>
+     </bean>
+
+</beans>

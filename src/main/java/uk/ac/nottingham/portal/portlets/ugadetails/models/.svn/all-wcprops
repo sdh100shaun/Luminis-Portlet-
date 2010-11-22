@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/java/uk/ac/nottingham/portal/portlets/ugadetails/models
+END
+Person.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/java/uk/ac/nottingham/portal/portlets/ugadetails/models/Person.java
+END
+IPersonDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/java/uk/ac/nottingham/portal/portlets/ugadetails/models/IPersonDAO.java
+END
+SupportDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/java/uk/ac/nottingham/portal/portlets/ugadetails/models/SupportDetails.java
+END
+JDBCPersonDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/java/uk/ac/nottingham/portal/portlets/ugadetails/models/JDBCPersonDAO.java
+END

@@ -1,0 +1,6 @@
+To avoid future confusion, we recommend that you include a license with your portlet.
+This file is simply a reminder.
+
+For a template license you can have a look at: http://www.opensource.org/licenses/
+
+Example: Apache 2.0 http://www.opensource.org/licenses/apache2.0.php

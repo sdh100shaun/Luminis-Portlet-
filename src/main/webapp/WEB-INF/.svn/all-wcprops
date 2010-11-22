@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/webapp/WEB-INF
+END
+portlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/webapp/WEB-INF/portlet.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/webapp/WEB-INF/log4j.properties
+END
+ugadetails-portlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/webapp/WEB-INF/ugadetails-portlet.xml
+END
+application-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/webapp/WEB-INF/application-context.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/webapp/WEB-INF/web.xml
+END
+ugadetails.properties
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/luminis/!svn/ver/139/ugadetails/trunk/src/main/webapp/WEB-INF/ugadetails.properties
+END
